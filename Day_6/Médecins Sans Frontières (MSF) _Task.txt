@@ -1,5 +1,5 @@
 A. Problem Statement
-Médecins Sans Frontières (MSF) operates medical programs in more than 70 countries and collects data from 400 field sites. The organization requires a centralized data platform that consolidates patient intake forms, drug inventory logs, outbreak reports, and staff deployment records into a central analytics environment at Geneva headquarters.
+MÃ©decins Sans FrontiÃ¨res (MSF) operates medical programs in more than 70 countries and collects data from 400 field sites. The organization requires a centralized data platform that consolidates patient intake forms, drug inventory logs, outbreak reports, and staff deployment records into a central analytics environment at Geneva headquarters.
 
 B. Proposed Architecture
 Field Sites (400 Locations)
