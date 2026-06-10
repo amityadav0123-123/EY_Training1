@@ -1,0 +1,33 @@
+| Card  | Business Challenge               | GenAI Type                                 | Recommended Model                  | Why                                                                        |
+| ----- | -------------------------------- | ------------------------------------------ | ---------------------------------- | -------------------------------------------------------------------------- |
+| **A** | Multilingual email triage        | **Classification + Translation**           | BERT, RoBERTa, DistilBERT, or LLM  | Categorize emails and translate multiple languages automatically.          |
+| **B** | Regulatory update review         | **Summarization + Information Extraction** | GPT-4, Claude, Gemini              | Extract key regulatory changes from long documents and generate summaries. |
+| **C** | Fraud alert narratives           | **Text Generation**                        | GPT-4, Claude, Llama               | Convert fraud signals into plain-English explanations for customers.       |
+| **D** | Synthetic fraud training data    | **Synthetic Data Generation**              | GANs, Diffusion Models, LLMs       | Create realistic fraud samples without exposing customer PII.              |
+| **E** | Personalized marketing copy      | **Content Generation**                     | GPT-4, Claude, Gemini              | Generate multiple marketing variants for different customer segments.      |
+| **F** | Developer boilerplate generation | **Code Generation**                        | GitHub Copilot, GPT-4, Claude Code | Auto-generate repetitive API integration code.                             |
+
+
+Detailed Explanation-
+
+1. Multilingual email triage- 	   Here model has to perform two task, first classifying the emaid and translate it into respective lanuage,
+			      	   so for that Bert based model will better b/c it is like sentiment finding in email
+				   Model- BERT, Robert, DistilBerT
+
+2. Regulatory update review- 	   This task is all about Reviev long Regulatory documents.
+			      	   so it is like summarization task and finding key insingts from long documents
+			      	   Model- Any Language model like GPT-4 , Gemeni 3
+
+3. Fraud alert narrative - 	   Here our job is to convey Plane-English text message about froud to customer for fraud alert.
+			   	   So task is like text generation.
+			   	   Model- LLM like GPT-4, Gemini, Claude
+
+4. Synthetic fraud training data-  This one intesting task, Here we want to train a ML model on Fraude data but we cann't take real customer fraud data
+				   due GDPR restiction, so for we will generate synthetic fraud data.
+				   So this task about generating synthetic data.
+				   Model- GANs, Diffusion model.
+5. Personalized marketing copy-    This task is about content generation targeting 5 types of customer.
+				   Model- GPT-4, Gemini
+
+6. Developer boilerplate generation- This task is for Generating code for few developer.
+				     Model- Claude code, GPT 4		
