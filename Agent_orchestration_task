@@ -1,0 +1,6 @@
+Agent orchestrartion assignments-
+choose orchestration type and give justification-
+
+Claims Adjudication -		     GraphFlow   Workflow is predefined. Multiple agents work in parallel
+Buyer's Research Assistant - 	 Magentic    Requires autonomous planning. Agent must decide tasks dynamically,
+RFP Response Builder -		     GraphFlow   Process is structured and known beforehand.Requires ordered execution + review loop + conditional routing.
